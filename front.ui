@@ -1,0 +1,1247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CarParkingManager</class>
+ <widget class="QMainWindow" name="CarParkingManager">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>922</width>
+    <height>379</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>922</width>
+    <height>379</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>922</width>
+    <height>379</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Car Parking Manager</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>-100</x>
+      <y>-230</y>
+      <width>1021</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	
+	background-color: rgb(30, 30, 36);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="s1">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>370</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>HelveticaRounded LT Std BdCn</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+background-color: rgb(64, 255, 80);
+color: rgb(0,0,0);
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>1</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="s2">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>370</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>HelveticaRounded LT Std BdCn</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+background-color: rgb(64, 255, 80);
+color: rgb(0,0,0);
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>2</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="s15">
+     <property name="geometry">
+      <rect>
+       <x>760</x>
+       <y>550</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>HelveticaRounded LT Std BdCn</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+background-color: rgb(64, 255, 80);
+color: rgb(0,0,0);
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>15</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="s4">
+     <property name="geometry">
+      <rect>
+       <x>880</x>
+       <y>370</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>HelveticaRounded LT Std BdCn</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+background-color: rgb(64, 255, 80);
+color: rgb(0,0,0);
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>4</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="s5">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>430</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>HelveticaRounded LT Std BdCn</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+background-color: rgb(64, 255, 80);
+color: rgb(0,0,0);
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>5</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="s11">
+     <property name="geometry">
+      <rect>
+       <x>760</x>
+       <y>490</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>HelveticaRounded LT Std BdCn</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+background-color: rgb(64, 255, 80);
+color: rgb(0,0,0);
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>11</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="s13">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>550</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>HelveticaRounded LT Std BdCn</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+background-color: rgb(64, 255, 80);
+color: rgb(0,0,0);
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>13</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="s8">
+     <property name="geometry">
+      <rect>
+       <x>880</x>
+       <y>430</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>HelveticaRounded LT Std BdCn</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+background-color: rgb(64, 255, 80);
+color: rgb(0,0,0);
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>8</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="s6">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>430</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>HelveticaRounded LT Std BdCn</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+background-color: rgb(64, 255, 80);
+color: rgb(0,0,0);
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>6</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="s10">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>490</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>HelveticaRounded LT Std BdCn</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+background-color: rgb(64, 255, 80);
+color: rgb(0,0,0);
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>10</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="s3">
+     <property name="geometry">
+      <rect>
+       <x>760</x>
+       <y>370</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>HelveticaRounded LT Std BdCn</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+background-color: rgb(64, 255, 80);
+color: rgb(0,0,0);
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>3</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="s7">
+     <property name="geometry">
+      <rect>
+       <x>760</x>
+       <y>430</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>HelveticaRounded LT Std BdCn</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+background-color: rgb(64, 255, 80);
+color: rgb(0,0,0);
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>7</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="s16">
+     <property name="geometry">
+      <rect>
+       <x>880</x>
+       <y>550</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>HelveticaRounded LT Std BdCn</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+background-color: rgb(64, 255, 80);
+color: rgb(0,0,0);
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>16</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="s14">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>550</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>HelveticaRounded LT Std BdCn</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+background-color: rgb(64, 255, 80);
+color: rgb(0,0,0);
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>14</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="s9">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>490</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>HelveticaRounded LT Std BdCn</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+background-color: rgb(64, 255, 80);
+color: rgb(0,0,0);
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>9</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="s12">
+     <property name="geometry">
+      <rect>
+       <x>880</x>
+       <y>490</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>HelveticaRounded LT Std BdCn</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+background-color: rgb(64, 255, 80);
+color: rgb(0,0,0);
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>12</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>260</y>
+       <width>921</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>25</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgba(255, 255, 255, 225);</string>
+     </property>
+     <property name="text">
+      <string>CAR PARKING MANAGEMENT</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>390</y>
+       <width>231</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Montserrat</family>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 15px;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="placeholderText">
+      <string>Vehicle Number</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ENTRYBUTTON">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>460</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 155, 113);
+border-radius: 20px;
+color: rgba(0, 0, 0, 200);
+
+QPushButton{
+background-color: rgba(255, 155, 113,50);
+}
+
+QPushButton:hover
+{
+background-color: rgba(255, 155, 113,25);
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Entry</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="EXITBUTTON">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>460</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 155, 113);
+border-radius: 20px;
+color: rgba(0, 0, 0, 200);</string>
+     </property>
+     <property name="text">
+      <string>Exit</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>510</y>
+       <width>321</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgba(255, 255, 255, 225);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
+import numpy as np
+import cv2 
+import  imutils
+import pytesseract
+import pandas as pd
+import time
+import mysql.connector
+import datetime
+import sys
+import re
+import time
+import requests
+from PyQt5 import QtCore, QtWidgets, uic
+image_path = 'images/10.jpg'
+
+img = cv2.imread(image_path, cv2.IMREAD_UNCHANGED)
+img = imutils.resize(img, width=500)
+cv2.imshow(image_path, img)
+
+gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+#cv2.imshow("1 - Grayscale Conversion", gray)
+
+gray = cv2.bilateralFilter(gray, 11, 17, 17)
+#cv2.imshow("2 - Bilateral Filter", gray)
+
+edged = cv2.Canny(gray, 170, 200)
+#cv2.imshow("4 - Canny Edges", edged)
+
+cnts= cv2.findContours(edged.copy(), cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
+cnts = cnts[0] if len(cnts) == 2 else cnts[1]
+cnts=sorted(cnts, key = cv2.contourArea, reverse = True)[:30] 
+NumberPlateCnt = None 
+
+count = 0
+for c in cnts:
+        peri = cv2.arcLength(c, True)
+        approx = cv2.approxPolyDP(c, 0.02 * peri, True)
+        if len(approx) == 4:  
+                NumberPlateCnt = approx 
+                break
+
+# Masking the part other than the number plate
+mask = np.zeros(gray.shape,np.uint8)
+new_image = cv2.drawContours(mask,[NumberPlateCnt],0,255,-1)
+new_image = cv2.bitwise_and(img,img,mask=mask)
+cv2.namedWindow("Final_image",cv2.WINDOW_NORMAL)
+cv2.imshow("Final_image",new_image)
+
+# Configuration for tesseract
+config = ('-l eng --oem 1 --psm 3')
+
+# Run tesseract OCR on image
+text = str(pytesseract.image_to_string(new_image, config=config))
+
+#Data is stored in CSV file
+raw_data = {'date': [time.asctime( time.localtime(time.time()) )], 
+        'v_number': [text]}
+
+df = pd.DataFrame(raw_data, columns = ['date', 'v_number'])
+df.to_csv('data.csv')
+
+# Print recognized text
+print(text)
+cv2.waitKey(0)
+
+
+import mysql.connector
+import datetime
+import sys
+import re
+import time
+
+from PyQt5 import QtCore, QtWidgets, uic
+
+mydb = mysql.connector.connect(host = "localhost", user = "smoke", passwd = "hellomoto", database = "car", autocommit=True)
+mycursor = mydb.cursor()
+
+mycursor.execute("DROP TABLE slot")
+mycursor.execute("DROP TABLE duration")
+mycursor.execute("DROP TABLE entry")
+mycursor.execute("DROP TABLE exits")
+mycursor.execute("DROP TABLE cost")
+
+mycursor.execute("CREATE TABLE slot(carNumber VARCHAR(15), slot int)")
+mycursor.execute("CREATE TABLE entry(carNumber VARCHAR(15), entry VARCHAR(40))")
+mycursor.execute("CREATE TABLE exits(carNumber VARCHAR(15), exit1 VARCHAR(40))")
+mycursor.execute("CREATE TABLE duration(carNumber VARCHAR(15), durationInSec int)")
+mycursor.execute("CREATE TABLE cost(carNumber VARCHAR(15), cost int)")
+
+
+slots =  [False for i in range(16)]
+
+class Ui(QtWidgets.QMainWindow):
+    def __init__(self):
+        super(Ui, self).__init__()
+        uic.loadUi("front.ui", self)
+        self.ENTRYBUTTON.released.connect(lambda: xd())
+        self.EXITBUTTON.released.connect(lambda: exit())
+        #self.Active.setStyleSheet("background-color: #FF0B00")#red
+        #self.Active.setStyleSheet("background-color: #40FF50")#green
+        def xd():
+            carNumber = self.lineEdit.text()
+            mycursor.execute("SELECT carNumber FROM slot")
+            f = list(mycursor.fetchall())
+            if any(carNumber in s for s in f):
+                print("a")
+                self.label_2.setText("Duplicate")
+
+            #print(f)
+
+            else:
+                bla()
+        def bla():
+            carNumber = self.lineEdit.text()
+                #print(len(carNumber))
+           
+            if len(carNumber) == 0:
+                blank()
+                    #exit()
+            else:
+                entry()
+
+
+        def entry():
+            
+            try:
+                
+                carNumber = self.lineEdit.text()
+                #print(len(carNumber))
+                """
+                if len(carNumber) == 0:
+                    blank()
+                    exit()
+                """    
+                self.lineEdit.clear()         
+                #print(carNumber)
+                slotNO = int(slots.index(False))
+                
+                slots[slotNO] = True
+                slotNO = slotNO + 1
+                #print(slotNO)
+                
+                entry = datetime.datetime.now()
+                print(type(entry))
+                
+
+                #mycursor.execute("INSERT INTO parkingdb (slot, carNumber, entry) VALUES(%s, %s, %s)", (slotNO, carNumber, entry))
+                mycursor.execute("Insert INTO slot (carNumber, slot) VALUES(%s,%s)", (carNumber, slotNO))
+                mycursor.execute("Insert INTO entry (carNumber, entry) VALUES(%s,%s)", (carNumber, entry))
+                mycursor.execute("Insert INTO exits (carNumber) VALUES(%s)", (carNumber,))
+                mycursor.execute("Insert INTO duration (carNumber) VALUES(%s)", (carNumber,))
+                mycursor.execute("Insert INTO cost (carNumber) VALUES(%s)", (carNumber,))
+                
+
+                self.label_2.setText("Slot: {:,}".format(int(slotNO)))
+
+                if slots[0] == True:
+                    self.s1.setStyleSheet("background-color: #FF0B00")
+                
+                if slots[1] == True:
+                    self.s2.setStyleSheet("background-color: #FF0B00")
+                
+                if slots[2] == True:
+                    self.s3.setStyleSheet("background-color: #FF0B00")
+                
+                if slots[3] == True:
+                    self.s4.setStyleSheet("background-color: #FF0B00")
+                
+                if slots[4] == True:
+                    self.s5.setStyleSheet("background-color: #FF0B00")
+                
+                if slots[5] == True:
+                    self.s6.setStyleSheet("background-color: #FF0B00")
+
+                if slots[6] == True:
+                    self.s7.setStyleSheet("background-color: #FF0B00")
+                
+                if slots[7] == True:
+                    self.s8.setStyleSheet("background-color: #FF0B00")
+                
+                if slots[8] == True:
+                    self.s9.setStyleSheet("background-color: #FF0B00")
+                
+                if slots[9] == True:
+                    self.s10.setStyleSheet("background-color: #FF0B00")
+                
+                if slots[10] == True:
+                    self.s11.setStyleSheet("background-color: #FF0B00")
+
+                if slots[11] == True:
+                    self.s12.setStyleSheet("background-color: #FF0B00")
+                
+                if slots[12] == True:
+                    self.s13.setStyleSheet("background-color: #FF0B00")
+                
+                if slots[13] == True:
+                    self.s14.setStyleSheet("background-color: #FF0B00")
+                
+                if slots[14] == True:
+                    self.s15.setStyleSheet("background-color: #FF0B00")
+                
+                if slots[15] == True:
+                    self.s16.setStyleSheet("background-color: #FF0B00")
+                    
+
+                
+            except Exception as e:
+                print(e)
+                self.label_2.setText("Invalid")
+
+        def blank():
+            print("in")
+            self.label_2.setText("Empty")
+            #time.sleep(5)
+
+
+        def exit():
+            try:
+                carNumber = self.lineEdit.text()
+                self.lineEdit.clear()         
+                #print(carNumber)
+
+                exit1 = datetime.datetime.now()
+
+                #slots[slotNO - 1] = False
+
+                mycursor.execute("update exits set exit1 = %s WHERE carNumber = %s", (exit1, carNumber))
+
+                mycursor.execute("select slot from slot where carNumber = %s", (carNumber,))
+                slotNO = int(re.sub("[^0-9]", "", str(mycursor.fetchone())))
+                print(slotNO)
+
+                slots[slotNO - 1] = False
+
+                #------------------------TIME----------------------------
+
+                mycursor.execute("select entry from entry where carNumber = %s", (carNumber,))
+                #entry = str(mycursor.fetchone())
+                entry = re.sub('[,)(/\']', '', str(mycursor.fetchone()))
+                e = datetime.datetime.fromisoformat(entry)
+
+                time = int((exit1 - e).total_seconds())
+                #print(time)
+                
+                cost =  int(10 * time)
+                #print(cost)
+                if cost > 150:
+                    cost = 150
+                self.label_2.setText("Cost: Rs." + str(cost))
+
+                mycursor.execute("update duration set durationInSec = %s WHERE carNumber = %s", (time, carNumber))
+                mycursor.execute("update cost set cost = %s WHERE carNumber = %s", (cost, carNumber))
+
+                if slots[0] == False:
+                    self.s1.setStyleSheet("background-color: #40FF50")
+                
+                if slots[1] == False:
+                    self.s2.setStyleSheet("background-color: #40FF50")
+                
+                if slots[2] == False:
+                    self.s3.setStyleSheet("background-color: #40FF50")
+                
+                if slots[3] == False:
+                    self.s4.setStyleSheet("background-color: #40FF50")
+
+                if slots[4] == False:
+                    self.s5.setStyleSheet("background-color: #40FF50")
+                
+                if slots[5] == False:
+                    self.s6.setStyleSheet("background-color: #40FF50")
+                
+                if slots[6] == False:
+                    self.s7.setStyleSheet("background-color: #40FF50")
+                
+                if slots[7] == False:
+                    self.s8.setStyleSheet("background-color: #40FF50")
+                
+                if slots[8] == False:
+                    self.s9.setStyleSheet("background-color: #40FF50")
+
+                if slots[9] == False:
+                    self.s10.setStyleSheet("background-color: #40FF50")
+                
+                if slots[10] == False:
+                    self.s11.setStyleSheet("background-color: #40FF50")
+                
+                if slots[11] == False:
+                    self.s12.setStyleSheet("background-color: #40FF50")
+                
+                if slots[12] == False:
+                    self.s13.setStyleSheet("background-color: #40FF50")
+                
+                if slots[13] == False:
+                    self.s14.setStyleSheet("background-color: #40FF50")
+
+                if slots[14] == False:
+                    self.s15.setStyleSheet("background-color: #40FF50")
+                
+                if slots[15] == False:
+                    self.s16.setStyleSheet("background-color: #40FF50")
+                
+
+
+            except Exception as e:
+                print(e)
+                self.label_2.setText("Invalid Entry")
+        
+        
+
+def main():
+    app = QtWidgets.QApplication(sys.argv)
+
+    window = Ui()
+    window.show()
+
+    app.exec_()
+
+if __name__ == "__main__":
+    main()
+import re
+import requests
+import mysql.connector
+import numpy as np
+import cv2 
+import  imutils
+import pytesseract
+import pandas as pd
+import time
+import mysql.connector
+
+import time
+import requests
+
+
+def entryMessage():
+    url = "https://www.fast2sms.com/dev/bulkV2"
+    # mycursor.execute("select name from userInfo where vnumber = %s", (n,))
+
+    # name = str(re.sub("['(),]", "", str(mycursor.fetchone())))
+    
+    # url2 = mylist[slotNO-1]
+    # mycursor.execute("select pnumber from userInfo where vnumber = %s", (n,))
+    mylist = ["https://drive.google.com/file/d/1SuQV8Vg9uMrtebObak42b_uvX-SwZVTP/view?usp=sharing","https://drive.google.com/file/d/1YUz0wOotahjK8OrcQztcP3zi5a3MDvYK/view?usp=sharing","https://drive.google.com/file/d/1xoPsAZVSiEfHpdOgwfNunskQfBmhP96A/view?usp=sharing","https://drive.google.com/file/d/1v6Ko8fKS5v0wmoQeRhZHqE3li_6Ua2zH/view?usp=sharing","https://drive.google.com/file/d/1v6Ko8fKS5v0wmoQeRhZHqE3li_6Ua2zH/view?usp=sharing","https://drive.google.com/file/d/1FCOWvis5bWFwSEMYpvWCGTfBLlzVZwu4/view?usp=sharing","https://drive.google.com/file/d/1Um3EnrnQLPcHPe89PspY9WylX7XtVbZ1/view?usp=sharing","https://drive.google.com/file/d/1Nuzuln7T37rm_aXh0WY4KhwK_56vcmIF/view?usp=sharing","https://drive.google.com/file/d/1Nuzuln7T37rm_aXh0WY4KhwK_56vcmIF/view?usp=sharing","https://drive.google.com/file/d/1_NCWosFQScL-6L-jkodW1ZDBv-6_PRvL/view?usp=sharing","https://drive.google.com/file/d/1WVzmBTe-oVZtDfPZK5MzxpkT-EP1xqvy/view?usp=sharing","https://drive.google.com/file/d/1FLohvywECYuNBFhkK1aPlmRBWuf8cNlU/view?usp=sharing","https://drive.google.com/file/d/1FvglWMkcvydsjDxlnyVqNJ65Eb4KHJNI/view?usp=sharing","https://drive.google.com/file/d/1y3pdOHgBmmmXGEyc-v7Qcr8GSvquqUcb/view?usp=sharing","https://drive.google.com/file/d/1QYyPufglNYUr5vJRyiMNJxESuapsxEP_/view?usp=sharing","https://drive.google.com/file/d/10cpdJAiUDOZY-438w3Dvxv3SKbjMQPlf/view?usp=sharing","https://drive.google.com/file/d/16H4fG9VCGFGwg1WCs0ldAmfxWBtdNO0y/view?usp=sharing","https://drive.google.com/file/d/1TD3EDjTWm9zyAfHBoRKgM2Xj8tjSnaZL/view?usp=sharing"]
+
+    # number = str(mycursor.fetchone())
+    name = "Adam"
+    slotNO = 3
+    number = 9945848007
+    url2= mylist[slotNO]
+    message = "Hello {} Your allocated parking slot is {}. To see the map visit : {}".format(name,slotNO,url2)
+    querystring = {"authorization":"CD1rsoVcqH0ROQgafUhPlA9xwMpSWTyXub7I2Nn6tKzkiLdejBu6YyQgJEskzrnwl7ZdxKe8W4a0cLAb",
+                    "message":message,
+                    "language":"english",
+                    "route":"q","numbers":number}
+
+    headers = {
+        'cache-control': "no-cache"
+    }
+
+    response = requests.request("GET", url, headers=headers, params=querystring)
+
+    print(response.text)
+def exitMessage():
+    url = "https://www.fast2sms.com/dev/bulkV2"
+
+    amount = 35
+    upiID = "sumukhjadhav007@okaxis"
+    upiUrl = "https://upayi.ml/{}/{}".format(upiID, amount)
+    # mycursor.execute("select pnumber from userInfo where vnumber = %s", (text,))
+
+    # number = int(re.sub("[^0-9]", "", str(mycursor.fetchone())))
+    number = 9945848007
+    message = "Your parking fee is {}. Please pay it using below link {}".format(amount, upiUrl)
+    querystring = {"authorization":"CD1rsoVcqH0ROQgafUhPlA9xwMpSWTyXub7I2Nn6tKzkiLdejBu6YyQgJEskzrnwl7ZdxKe8W4a0cLAb",
+                    "message":message,
+                    "language":"english",
+                    "route":"q","numbers":number}
+
+    headers = {
+        'cache-control': "no-cache"
+    }
+
+    response = requests.request("GET", url, headers=headers, params=querystring)
+
+    print(response.text)
+
+
+
+# entryMessage()
+exitMessage()
+
