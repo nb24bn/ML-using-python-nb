@@ -9,5 +9,9 @@
 
 ![img (20)](https://github.com/nb24bn/ML-using-python-nb/assets/152622518/3095b7f3-1a02-40dc-99ed-1e5b038784fd)
 
+![image](https://github.com/nb24bn/ML-using-python-nb/assets/152622518/172dea2a-be01-4886-b0c5-a00e3b462ff7)
+
+
+
 
 
