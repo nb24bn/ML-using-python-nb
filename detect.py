@@ -1,3 +1,5 @@
+# Required code for the detection of images
+# tesseract and mysql must be installed
 import numpy as np
 import cv2 
 import  imutils
@@ -11,6 +13,7 @@ import re
 import time
 import requests
 from PyQt5 import QtCore, QtWidgets, uic
+# The path of the image can be changed here
 image_path = 'images/10.jpg'
 
 img = cv2.imread(image_path, cv2.IMREAD_UNCHANGED)
